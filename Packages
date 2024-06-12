@@ -1,0 +1,75 @@
+Package: openblock-stick-gui
+Version: 0.0.2
+Architecture: arm64
+Maintainer: ArthurZheng <arthurzheng@openblock.cc>
+Installed-Size: 137151
+Depends: openblock-stick-link, nginx
+Filename: ./package_openblock-stick-gui_v0.0.2_aarch64.deb
+Size: 78678402
+MD5sum: 2c076caddc7198925017f99b318a267f
+SHA1: 224531657570a2ba6eabc3e60deef9eae2055be0
+SHA256: 410ef3f7618013397fe89320d52ef65803b6f5baad0b6d97dc1cb0bdc3303ca6
+Section: base
+Priority: optional
+Description: Provide openblock web pages and open filebrowser web pages.
+
+Package: openblock-stick-license
+Version: 1.0.0
+Architecture: arm64
+Maintainer: ArthurZheng <arthurzheng@openblock.cc>
+Installed-Size: 19
+Depends: libargtable2-0
+Filename: ./package_openblock-stick-license_v1.0.0_aarch64.deb
+Size: 7178
+MD5sum: c156d1d3479f170696a4b498ec8f922d
+SHA1: 8e0fcdcee05404ae0a43dca55d4ba80056b529a9
+SHA256: 8b3bd1d21bd9c1e5f2a1e657d89855f907f7e28407578c41181c38cc50c4c7fa
+Section: base
+Priority: optional
+Description: Used to provide hardware connection interfaces and local resource services for openblock link.
+
+Package: openblock-stick-link
+Version: 1.0.2
+Architecture: arm64
+Maintainer: ArthurZheng <arthurzheng@openblock.cc>
+Installed-Size: 62777
+Depends: systemd, openblock-stick-tools, openblock-stick-license
+Filename: ./package_openblock-stick-link_v1.0.2_aarch64.deb
+Size: 15091076
+MD5sum: f3344f8feab30750a6d3cd455231767d
+SHA1: 75767a39f520d42bcf1e034a6b4016aab9dafd50
+SHA256: b2a79920bda40c3ff63f1782ec03f34f3e2694e548e7b6b68470c963b037c61a
+Section: base
+Priority: optional
+Description: Used to provide hardware connection interfaces and local resource services for openblock link.
+
+Package: openblock-stick-manager
+Version: 1.2.0
+Architecture: arm64
+Maintainer: ArthurZheng <arthurzheng@openblock.cc>
+Installed-Size: 214279
+Depends: systemd, openblock-stick-license, openblock-stick-license, dnsmasq, hostapd
+Filename: ./package_openblock-stick-manager_v1.2.0_aarch64.deb
+Size: 50311994
+MD5sum: 05c08d1aa38e412c642d489f128f8872
+SHA1: 4d0a6699a469ee57aa5a66b43f628cd39b882325
+SHA256: a890277ef915cac58452e368670048f922e8516d45427375289d441e5c43cf3d
+Section: base
+Priority: optional
+Description: The management program of Openblock Stick provides an interactive human-computer interface for displaying network mode, IP address, configuration, network connection and other functions.
+
+Package: openblock-stick-splash
+Version: 1.0.1
+Architecture: arm64
+Maintainer: ArthurZheng <arthurzheng@openblock.cc>
+Installed-Size: 114
+Depends: busybox-static
+Filename: ./package_openblock-stick-splash_v1.0.1_aarch64.deb
+Size: 3976
+MD5sum: fe60c1c82edb77f371b3fe88627cc615
+SHA1: 59cd496ec15554f3a957f1551e9546f4a6d4e8ba
+SHA256: 82dc0b0dd57b1d4145eb44481aedb65cefb7d65a9bef023fa648520cb3141da7
+Section: base
+Priority: optional
+Description: Custom uInitrd image for initialization to show splash screen on system startup.
+
